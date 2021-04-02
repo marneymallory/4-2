@@ -1,11 +1,17 @@
 function looperDooper(number) {
   for(let i=0; i<=number; i++) {
+    if(i.toString().split("").includes("3")){
+      console.log("Won't you be my neighbor?")
+      } else if(console.log(i));{
+      }
     if(i.toString().split("").includes("1")){
       console.log("BEEP!")
-    } else {console.log(i)}
+      } else if(console.log(i));{
+    }
     if(i.toString().split("").includes("2")){
-      console.log("BOOP!")
-    } else {console.log(i)}
+      console.log("BOOP!") 
+      } else if(console.log(i));{
+    }  
   } 
 };
 
