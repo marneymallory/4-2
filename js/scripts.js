@@ -1,13 +1,11 @@
-
-
-
-
-
-
-
-
-
-// UI Logic
+function looperDooper(number) {
+  for(let i=0; i<=number; i++) {
+    console.log(i);
+  }
+};
 $(document).ready(function () {
-  $("#form").submit(function (event) {
+  $("#example-form").submit(function (event) {
     event.preventDefault();
+    looperDooper($("#number").val())
+  });
+});
