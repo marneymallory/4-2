@@ -6,6 +6,9 @@ README.md
 4/2/21
 By: Marney Mallory
 
+### Specs
+
+
 ### Description:
 This is a website is designed to showcase arrays and loops. It will a take number from a user and returns a different statement based on the number. Numbers that contain a 1 will replace all digits with "Beep!"
 Numbers that contain a 2 will replace all digits with "Boop!"
