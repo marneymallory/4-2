@@ -29,7 +29,7 @@ Expected Output: "Won't you be my neighbor" instead of 3 and 13.
 
 
 ### Description:
-This is a website is designed to showcase arrays and loops. It will a take number from a user and returns a different statement based on the number. Numbers that contain a 1 will replace all digits with "Beep!"
+This is a website is designed to showcase looping. It will a take number from a user and returns a different statement based on the number. Numbers that contain a 1 will replace all digits with "Beep!"
 Numbers that contain a 2 will replace all digits with "Boop!"
 Numbers that contain a 3 all digits will be replaced with "Won't you be my neighbor?"
 
