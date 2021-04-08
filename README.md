@@ -7,25 +7,23 @@ README.md
 By: Marney Mallory
 
 ### Specs
-Describe: "number"
-Test: Should return numbers "1<=i"
-Code: i<=number
-Expected Output:1-i
+Describe: looperDooper()
+Test: "It should return an array from 0- user inputted number."
+Code: looperDoooper(4);
+Expected Output: 1, 2, 3, 4
 
-Describe: "Beep!"
-Test: Should return numbers "1<=i" and a string of "Beep!" for all numbers containing 1.
-Code: if (i.toString().split("").includes("1"))
-Expected Output: "Beep!" instead of 1 and 10-19
+Test: Numbers that contain a 3 will replace all digits with "Won't you be my neighbor?"
+Code: looperDooper(3)
+Expected Output: 1, 2, "Won't you be my neighbor?"
 
-Describe:"Boop!"
-Test: Should return numbers "1<=i" and a string of "Boop!" for all numbers containing 2.
-Code: if(i.toString().split("").includes("2"))
-Expected Output: "Boop!" instead of 2 and 12
+Test: Numbers that contain a 2 will replace all digits with "BOOP!"
+Code: looperDooper(2)
+Expected Output: 1, "BOOP!"
 
-Describe: "Neighbor"
-Test: Should return string of and array of numbers "0<=i" and a string of "Won't you be my neighbor for all numbers containing 3.
-Code: if(i.toString().split("").includes("3"))
-Expected Output: "Won't you be my neighbor" instead of 3 and 13.
+Test: It should replace any numbers containing a 1 with a "BEEP!" if there is no 2 or 3 present. 
+Code: looperDooper(13)
+Expected Output: "BEEP!", "BOOP!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "BEEP!", "BOOP!", "Won't you be my neighbor?"
+
 
 
 ### Description:
